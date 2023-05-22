@@ -1,12 +1,12 @@
 # i3-utils
 
-# Fix Screen Tearing in i3 on `amdgpu` or `radeon` gpu driver
+## Fix Screen Tearing in i3 on `amdgpu` or `radeon` gpu driver
 
-# Check if you have `amdgpu/radeon` in use
+## Check if you have `amdgpu/radeon` in use
 
 `lspci -nnk | grep -i -EA3 "3d|display|vga"`
 
-# \* Use this method you have `amdgpu` or `radeon` gpu used by kernel
+## \* Use this method you have `amdgpu` or `radeon` gpu used by kernel
 
 ## Run this command to check if you have either `xorg.conf` file or `xord.conf.d` folder
 
